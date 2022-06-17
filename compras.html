@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<title>comprar</title>
+	</head>
+
+	<body background="imagen.jpg">
+
+		<!-- Titulo -->
+		<h1 align="center"><font color="white">VENTA DE EQUIPO</font></h1>
+		<table>
+			<tr>
+				<td>
+					<img src="carrito.png">
+				</td>
+				<td>
+					<font color="white"><h1 id="contador"> 0</h1></font>
+				</td>
+			</tr>
+		</table>
+		<hr />
+		<!-- Titulo -->
+
+		<!-- Tabla de contenido -->
+		<table border="5" width="100%">
+			<!-- Cabeceras de la tabla -->
+			<thead>
+				<tr>
+					<td bgcolor="blue" width="15%">
+						<h2>COMPUTADORES</h2>
+					</td>
+					<td bgcolor="blue">
+						<h2>ARTICULO</h2>
+					</td>
+					<td width="10%" bgcolor="blue">
+						<h2>PRECIOS</h2>
+					</td>
+				</tr>
+			</thead>
+			<!-- /Cabeceras de la tabla -->
+
+			<!-- Cuerpo de la tabla -->
+			<tbody id="items" bgcolor="white">
+			</tbody>
+			<!-- /Cuerpo de la tabla -->
+
+		</table>
+
+		<aside class="col-sm-4">
+			<table bgcolor="white" align="center">
+				<font color="black">
+					<tr>
+						<td>
+							<h2>Carrito</h2>
+							<hr>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<!-- Elementos del carrito -->
+							<ul id="carrito" class="list-group"></ul>
+						</td>
+					</tr>
+					<hr>
+					<!-- Precio total -->
+					<tr>
+						<td>
+							<hr>
+							<p class="text-right">Total: $<span id="total">0.00</span>&nbsp pesos;</p>
+						</td>
+					</tr>
+				</font>
+			</table>
+		</aside>
+		<audio src="alot.mp3" autoplay></audio>
+	</body>
+	<!-- /Tabla de contenido -->
+
+	<!-- Scripts -->
+	<script src="compras.js"></script>
+</html>
+<!-- Esto es un comentario -->
